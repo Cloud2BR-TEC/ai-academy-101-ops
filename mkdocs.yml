@@ -1,0 +1,65 @@
+site_name: "Azure AI Operations"
+site_description: "A practical learning guide for Azure MLOps and GenAIOps operating models."
+site_url: https://cloud2br-tec.github.io/ai-academy-101-ops/
+docs_dir: docs
+use_directory_urls: false
+
+copyright: Copyright &copy; 2026 <a href="https://github.com/Cloud2BR-TEC" target="_blank" rel="noopener">Cloud2BR TEC</a>
+
+theme:
+  name: material
+  language: en
+  logo: assets/img/ops-mark.svg
+  favicon: assets/img/ops-mark.svg
+  features:
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+  palette:
+    scheme: default
+    primary: blue
+    accent: blue
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js
+  - assets/js/mermaid-init.js
+  - assets/js/org-link.js
+  - assets/js/external-links.js
+
+extra_css:
+  - assets/css/custom.css
+
+extra:
+  generator: false
+
+nav:
+  - Home: index.md
+  - 01. Foundations:
+    - Operating Model: 01-foundations/index.md
+  - 02. Azure MLOps:
+    - Lifecycle and Maturity: 02-mlops/lifecycle-and-maturity.md
+    - Build, Deploy, and Monitor: 02-mlops/production-lifecycle.md
+  - 03. Azure GenAIOps:
+    - Maturity Journey: 03-genaiops/maturity-journey.md
+    - Evaluate and Operate LLM Apps: 03-genaiops/evaluation-and-operations.md
+  - 04. Enterprise Enablement:
+    - Platform, Delivery, and FinOps: 04-enterprise/delivery-and-finops.md
+    - Governance and Security: 04-enterprise/governance-and-security.md
+  - References: references.md

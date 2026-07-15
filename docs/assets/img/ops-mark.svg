@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Azure AI Operations mark">
+  <rect width="64" height="64" rx="10" fill="#123a63"/>
+  <path d="M14 43 27 16h10l13 27h-9l-3-7H26l-3 7h-9Zm16-15h5l-2.5-6-2.5 6Z" fill="#fff"/>
+  <circle cx="47" cy="17" r="6" fill="#20a39e"/>
+</svg>
