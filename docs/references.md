@@ -1,10 +1,6 @@
 # References and Source Material
 
-This learning site extends and reorganizes guidance from two Cloud2BR MSFT Learning Hub repositories. The material here is educational and should be validated against current Microsoft product documentation and organizational policy before implementation.
-
-## Source repositories
-
-| Repository | Contribution to this guide |
+| Repository | Description |
 | --- | --- |
 | [Azure-MLOps-Overview](https://github.com/Cloud2BR-MSFTLearningHub/Azure-MLOps-Overview) | Azure MLOps lifecycle, maturity model, Azure service patterns, evaluation, deployment, monitoring, and retraining practices |
 | [GenAIOpsMaturityLevels](https://github.com/Cloud2BR-MSFTLearningHub/GenAIOpsMaturityLevels) | Four-level GenAIOps maturity journey, structured prompt and application delivery, monitoring, compliance, advanced automation, and LLM evaluation themes |
