@@ -1,5 +1,12 @@
 # Azure AI Operations
 
+[![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
+[Cloud2BR TEC](https://github.com/Cloud2BR-TEC)
+
+Last updated: 2026-07-14
+
+----------
+
 > This repository contains the course content and architecture guidance for operating machine learning and generative AI workloads on Azure.
 
 ## Scope
@@ -18,7 +25,9 @@ It explains where MLOps and GenAIOps share practices, where their operational co
 - `docs/03-genaiops/`: LLM application maturity, evaluation, and monitoring
 - `docs/04-enterprise/`: delivery, FinOps, governance, and security
 
+<!-- START BADGE -->
 <div align="center">
-  <img src="https://img.shields.io/badge/Azure-AI%20Operations-0078D4" alt="Azure AI Operations">
-  <p>Learning content refreshed: 2026-07-15</p>
+  <img src="https://img.shields.io/badge/Total%20views-1589-limegreen" alt="Total views">
+  <p>Refresh Date: 2026-07-13</p>
 </div>
+<!-- END BADGE -->
